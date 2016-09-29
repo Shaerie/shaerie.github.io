@@ -16,6 +16,8 @@ $(document).ready(function()
 		{
 			$('#slider').show();
 			$('#photo').attr('src','pics/' + $(this).css("background-image").substring(42,48));
+			alert($(this).css("background-image"));
+			
 			
 			for(var j=0;j<pics.length;j++)
 			if(("pics/" + $(this).css("background-image").substring(42,48))==pics[i])
