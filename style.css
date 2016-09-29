@@ -66,11 +66,12 @@ section{
 	margin: 0;
 	font-size: 2rem;
 	text-shadow: 1px 1px 3px black;
+	font-family: 'Amatic SC','cursive','helvetica','serif';
 	}
 
 #about{	
 	font-family: 'Titillium Web','cursive','helvetica','serif';
-	width: 100px;
+	width: 300px;
 	text-align: left;
 	font-size: 1rem;
 	display: inline-block;
