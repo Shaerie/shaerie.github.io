@@ -16,8 +16,6 @@ $(document).ready(function()
 		{
 			$('#slider').show();
 			$('#photo').attr('src','pics/' + $(this).css("background-image").substring(42,48));
-			alert($(this).css("background-image"));
-			
 			
 			for(var j=0;j<pics.length;j++)
 			if(("pics/" + $(this).css("background-image").substring(42,48))==pics[i])
@@ -32,6 +30,7 @@ $(document).ready(function()
 			else
 			i=0;
 		$('#photo').attr('src',pics[i]);
+			alert($('#photo').attr('src'));
 		})
 		
 		$('#left').click(
@@ -42,6 +41,7 @@ $(document).ready(function()
 			else
 			i=pics.length-1;
 		$('#photo').attr('src',pics[i]);
+			alert($('#photo').attr('src'));
 		})
 	})
 $(document).on("click","#x,#background",function(){
