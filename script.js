@@ -18,7 +18,7 @@ $(document).ready(function()
 			$('#photo').attr('src','pics/' + $(this).css("background-image").substring(42,48));
 			
 			for(var j=0;j<pics.length;j++)
-			if(("pics/" + $(this).css("background-image").substring(42,48))==pics[i])
+			if(($(this).css("background-image").substring(42,48)) == pics[i].substring(5))
 			i=j;
 		})
 		
@@ -42,6 +42,7 @@ $(document).ready(function()
 		$('#photo').attr('src',pics[i]);
 		})
 	})
+
 $(document).on("click","#x,#background",function(){
 		$('#slider').hide();
 		$('.thumb').click(
