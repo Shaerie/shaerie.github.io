@@ -20,6 +20,7 @@ $(document).ready(function()
 			for(var j=0;j<pics.length;j++)
 			if(($(this).css("background-image").substring(42,48)) == pics[i].substring(5))
 			i=j;
+			prompt("clicked: " + $(this).css("background-image").substring(42,48)) + "  found: " + pics[i].substring(5));
 		})
 		
 		$('#right,#photo').click(
