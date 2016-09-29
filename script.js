@@ -15,10 +15,10 @@ $(document).ready(function()
 		function()
 		{
 			$('#slider').show();
-			$('#photo').attr("src","pics/" + $(this).css("background-image").substring(56,62));
+			$('#photo').attr('src','pics/' + $(this).css("background-image").substring(56,62));
 			
 			for(var j=0;j<pics.length;j++)
-			if(($(this).css("background-image").substring(56,62)))
+			if(($(this).css("background-image").substring(56,62))==pics[i])
 			i=j;
 		})
 		
