@@ -30,7 +30,6 @@ $(document).ready(function()
 			else
 			i=0;
 		$('#photo').attr('src',pics[i]);
-			alert($('#photo').attr('src'));
 		})
 		
 		$('#left').click(
@@ -41,7 +40,6 @@ $(document).ready(function()
 			else
 			i=pics.length-1;
 		$('#photo').attr('src',pics[i]);
-			alert($('#photo').attr('src'));
 		})
 	})
 $(document).on("click","#x,#background",function(){
