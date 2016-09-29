@@ -18,9 +18,14 @@ $(document).ready(function()
 			$('#photo').attr('src','pics/' + $(this).css("background-image").substring(42,48));
 			
 			for(var j=0;j<pics.length;j++)
-			if(($(this).css("background-image").substring(42,48)) == pics[i].substring(5))
-			i=j;
-			prompt($(this).css("background-image").substring(42,48));
+				{
+				if(($(this).css("background-image").substring(42,48)) == pics[i].substring(5))
+					{	
+					i=j;
+					break;
+					}
+				}
+		
 			prompt(pics[i].substring(5));
 		})
 		
