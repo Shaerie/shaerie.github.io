@@ -30,7 +30,7 @@ $(document).ready(function()
 			else
 			i=0;
 		$('#photo').attr('src',pics[i]);
-			alert("obecne: " + $('#photo').attr('src') + "\ni: " + i + "\npic[i]: " + pic[i]);
+			prompt("obecne: " + $('#photo').attr('src') + "\ni: " + i + "\npic[i]: " + pic[i]);
 		})
 		
 		$('#left').click(
@@ -41,7 +41,7 @@ $(document).ready(function()
 			else
 			i=pics.length-1;
 		$('#photo').attr('src',pics[i]);
-			alert("obecne: " + $('#photo').attr('src') + "\ni: " + i + "\npic[i]: " + pic[i]);
+			prompt("obecne: " + $('#photo').attr('src') + "\ni: " + i + "\npic[i]: " + pic[i]);
 		})
 	})
 
