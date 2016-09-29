@@ -15,11 +15,11 @@ $(document).ready(function()
 		function()
 		{
 			$('#slider').show();
-			$('#photo').attr('src','pics/' + $(this).css("background-image").substring(56,62));
-			alert($(this).css("background-image").substring(30));
+			$('#photo').attr('src','pics/' + $(this).css("background-image").substring(43,49));
+			alert($(this).css("background-image").substring(43,49));
 			
 			for(var j=0;j<pics.length;j++)
-			if(($(this).css("background-image").substring(56,62))==pics[i])
+			if(($(this).css("background-image").substring(43,49))==pics[i])
 			i=j;
 		})
 		
