@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Portfolio Wisienki</title>
+	
+		<title>Portfolio</title>
+		
 		<link type="text/css" rel="stylesheet" href="style.css"/>
+		
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 	</head>
-
-	<body>
-		<header>Justyna Bień</header>
+	<body id="index">
+	
+		<header>Justyna Bien</header>
+		
 		<nav>
 			<p id="b4" class="active">home</p>
-			<a href="illustrations.html"><p id="b7">illustrations</p></a>
-			<a href="storyboards.html"><p id="b6">storyboards</p></a>
-			<a href="about.html"><p id="b4">about</p></a>
-			<a href="contact.html"><p id="b5">contact</p></a>
+			<a href="illustrations.html"><p>illustrations</p></a>
+			<a href="storyboards.html"><p>storyboards</p></a>
+			<a href="about.html"><p>about</p></a>
+			<a href="contact.html"><p>contact</p></a>
 		</nav>
 		
-		
 		<div id="gallery">
-				<p id="galhead">Newest</p>
-				<div class="picture" style="background-image: url('pics/a.jpg')"></div>
-				<div class="picture" style="background-image: url('pics/b.jpg')"></div>
-				<div class="picture" style="background-image: url('pics/c.jpg')"></div>
+			<p id="galhead">Latest</p>
+			<div class="thumb" style="background-image: url('thumbnails/1.jpg')"><span><br><br>Mermaid concept</span></div>
+			<div class="thumb" style="background-image: url('thumbnails/2.jpg')"><span><br><br>Tracer</span></div>
+			<div class="thumb" style="background-image: url('thumbnails/3.jpg')"><span><br><br>Mermaids</span></div>
 		</div>
 		
 		<div id="slider">
-			<div id="black"></div>
-				<img id="x" src="x.png"/>
-				<div id="behind">
-				<img id="left" src="left.png"/>
-				<img id="right" src="right.png"/>
-				<div id="picplace"></div>
-			</div>
+			<div id="background"></div>
+			<img id="photo"/>
+			<img id="x" src="x.png"/>
+			<img id="left" src="left.png"/>
+			<img id="right" src="right.png"/>
 		</div>
 		
 		<footer>
-		<p>Made for Shaerie by Morwan</p>
-		<p>2016</p>
+			<p>Made for Shaerie by Morwan</p>
+			<p>2016</p>
 		</footer>
 		
 	</body>
