@@ -30,7 +30,7 @@ $(document).ready(function()
 			else
 			i=0;
 		$('#photo').attr('src',pics[i]);
-			prompt("obecne: " + $('#photo').attr('src') + "\ni: " + i + "\npic[i]: " + pic[i]);
+			prompt($('#photo').attr('src'));
 		})
 		
 		$('#left').click(
@@ -41,7 +41,7 @@ $(document).ready(function()
 			else
 			i=pics.length-1;
 		$('#photo').attr('src',pics[i]);
-			prompt("obecne: " + $('#photo').attr('src') + "\ni: " + i + "\npic[i]: " + pic[i]);
+			prompt($('#photo').attr('src'));
 		})
 	})
 
@@ -50,6 +50,6 @@ $(document).on("click","#x,#background",function(){
 		$('.thumb').click(
 		function()
 		{
-				$('#slider').show();
+			$('#slider').show();
 		})
 	})
