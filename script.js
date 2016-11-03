@@ -24,7 +24,6 @@ $(document).ready(function()
 		$('.thumb').click(
 		function()
 		{
-			alert($(this).css("background-image").substring(42,48));
 			$('#slider').fadeIn(200);
 			$('#photo').attr('src','pics/' + $(this).css("background-image").substring(42,48));
 			for(var j=0;j<pics.length;j++)
