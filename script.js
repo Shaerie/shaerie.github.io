@@ -31,6 +31,12 @@ $(document).ready(function()
 			i=j;
 		})
 		
+		$('#glass').click(
+		function()
+		{	
+			$('#link').attr('href','https://shaerie.github.io/' + $('#photo').attr('src'));
+		})
+		
 		$('#right,#photo').click(
 		function()
 		{	
