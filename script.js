@@ -9,6 +9,9 @@ $(document).ready(function()
 		else if($('body').is('#storyboards'))
 		var pics = [];
 		
+       	 	$('#fade').css("display", "none");
+       		$('#fade').fadeIn(500);
+	
 		var i=0;
 		
 		var images = new Array();
