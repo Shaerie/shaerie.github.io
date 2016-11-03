@@ -173,7 +173,11 @@ h4{
 	top: 1.8%;
 	right: 2%;
 	cursor: pointer;
-	}
+}
+	
+#x:hover{
+	opacity: 0.6;
+}
 	
 #left{
 	width: 4%;
@@ -183,7 +187,11 @@ h4{
 	left: 2%;
 	cursor: pointer;
 }
-
+	
+#left:hover{
+	opacity: 0.6;
+}
+	
 #right{
 	width: 4%;
 	min-width: 50px;
@@ -192,7 +200,11 @@ h4{
 	right: 2%;
 	cursor: pointer;
 }
-
+	
+#right:hover{
+	opacity: 0.6;
+}
+	
 /*////////////	FOOTER	////////////*/
 
 footer{
