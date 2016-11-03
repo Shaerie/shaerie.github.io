@@ -10,15 +10,24 @@ $(document).ready(function()
 		var pics = [];
 		
 		var i=0;
-	
+		
+		var images = new Array();
+		
+		for(;i<pics.length;i++)
+		{
+			images[i] = new Image();
+			images[i].src = 'https://shaerie.github.io/' + pics[i];
+		}
+		
+		i=0;
+		
 		$('.thumb').click(
 		function()
 		{
 			$('#slider').show();
-			$('#photo').attr('src','pics/' + $(this).css("background-image").substring(42,48));
-			
+			$('#photo').attr('src','pics/' + $(this).css("background-image").substring(74,80));
 			for(var j=0;j<pics.length;j++)
-			if(($(this).css("background-image").substring(42,48)) == pics[j].substring(5))
+			if(($(this).css("background-image").substring(74,80)) == pics[j].substring(5))
 			i=j;
 		})
 		
