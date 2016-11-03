@@ -9,9 +9,6 @@ $(document).ready(function()
 		else if($('body').is('#storyboards'))
 		var pics = [];
 		
-       	 	$('#fade').css("display", "none");
-       		$('#fade').fadeIn(500);
-	
 		var i=0;
 		
 		var images = new Array();
@@ -24,6 +21,9 @@ $(document).ready(function()
 		
 		i=0;
 		
+       	 	$('#fade').css("display", "none");
+       		$('#fade').fadeIn(500);
+	
 		$('.thumb').click(
 		function()
 		{
