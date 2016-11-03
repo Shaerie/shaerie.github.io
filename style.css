@@ -9,7 +9,11 @@ html{
 	color: white;
 	text-align: center;
 	}
-	
+
+#fade{
+	display: none;
+}
+
 /*////////////	HEADER AND NAVIGATION	////////////*/
 
 header{
